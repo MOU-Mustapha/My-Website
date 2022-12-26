@@ -64,7 +64,13 @@ header .container .navigation a:hover {
 }
 @media (max-width: 767px) {
   header {
-    padding: 0px 20px;
+    padding: 0px 5px;
+  }
+  header .container .logo {
+    font-size: 1.5em;
+  }
+  header .container .navigation a {
+    font-size: 0.8em;
   }
 }
 .main {
