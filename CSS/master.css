@@ -63,14 +63,14 @@ header .container .navigation a:hover {
   color: #4c318b;
 }
 @media (max-width: 767px) {
-  header {
-    padding: 0px 5px;
-  }
   header .container .logo {
     font-size: 1.5em;
   }
   header .container .navigation a {
     font-size: 0.8em;
+  }
+  header .container .navigation a:last-child {
+    margin-right: 15px;
   }
 }
 .main {
